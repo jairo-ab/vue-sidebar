@@ -4,10 +4,6 @@
 
     const isVisible = ref(true)
 
-    // onMounted(() => {
-    //     window.document.body.style.paddingLeft = '78px'
-    // })
-
     const width = computed(() => {
         return isVisible.value ? 'w-70 transition-all duration-500' : 'w-19 transition-all duration-500'
     })
