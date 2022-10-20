@@ -1,0 +1,49 @@
+[
+    {
+        "icon": "ic:baseline-space-dashboard",
+        "description": "Dashboard",
+        "path": "/",
+        "properties": []
+    },
+    {
+        "icon": "material-symbols:content-copy-rounded",
+        "description": "Content",
+        "path": "/",
+        "properties": [
+            {
+                "description": "Courses",
+                "path": "/"
+            },
+            {
+                "description": "Categories",
+                "path": "/"
+            },
+            {
+                "description": "Instructors",
+                "path": "/"
+            },
+            {
+                "description": "Video Library",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "icon": "iconoir:design-nib",
+        "description": "Design",
+        "path": "/",
+        "properties": []
+    },
+    {
+        "icon": "icon-park-solid:weixin-market",
+        "description": "Market & Sell",
+        "path": "/",
+        "properties": []
+    },
+    {
+        "icon": "ic:baseline-report",
+        "description": "Reporting",
+        "path": "/",
+        "properties": []
+    }
+]

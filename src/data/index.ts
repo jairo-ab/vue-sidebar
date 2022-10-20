@@ -1,0 +1,1 @@
+export { default as json_sidebar } from './items.json'
