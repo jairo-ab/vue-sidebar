@@ -86,13 +86,3 @@
         </div>
     </div>
 </template>
-
-<style>
-    body {
-        transition: all 0.5s ease;
-    }
-
-    .open {
-        width: 17.5rem;
-    }
-</style>
