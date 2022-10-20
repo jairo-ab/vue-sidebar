@@ -27,7 +27,7 @@
                     <a href="" class="bg-blue-600 p-1.5 rounded flex items-center justify-center decoration-none focus:outline-none focus:ring-1 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900">
                         <span text-white i-file-icons:arch-linux></span>
                     </a>
-                    <button @click="isVisible =! isVisible" class="flex items-center justify-center b-none p-1.5 rounded bg-gray-700 transition-all duration-300">
+                    <button @click="isVisible =! isVisible" class="flex items-center justify-center b-none p-1.5 rounded bg-gray-700 transition-all duration-500">
                         <span :class="isVisible ? 'i-teenyicons:arrow-left-small-solid' : 'i-teenyicons:arrow-right-small-solid'" class="w-4 h-4 text-gray-100 stroke-current"></span>
                     </button>
                 </div>
@@ -53,7 +53,7 @@
                         <div relative>
                             <div absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none>
                                 <span w-5 h-5 text-gray-600 stroke-current hover:text-white>
-                                    <Icon :icon="item.icon" class="hover:text-white" />
+                                    <Icon :icon="item.icon" class="hover:text-white" text-xl />
                                 </span>
                             </div>
                             <a :class="isVisible ? null : 'hidden'" decoration-none inline-block w-full py-2 pl-8 pr-4 text-xl text-gray-600 rounded hover:text-gray-200 hover:bg-gray-700 focus:outline-none focus:text-white>
