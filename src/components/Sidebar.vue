@@ -1,11 +1,10 @@
 <script setup lang="ts">
-    import { onMounted, reactive, ref, computed } from 'vue'
     import { json_sidebar } from '../data'
+    import { visibleSidebar } from '../store'
+    const isVisible = $ref(visibleSidebar)
 
-    const isVisible = ref(true)
-
-    const width = computed(() => {
-        return isVisible.value ? 'w-70 transition-all duration-500' : 'w-19 transition-all duration-500'
+    const width = $computed(() => {
+        return isVisible ? 'w-70 transition-all duration-500' : 'w-19 transition-all duration-500'
     })
 
     const profile = reactive({

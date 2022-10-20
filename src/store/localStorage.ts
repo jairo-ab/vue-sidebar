@@ -1,0 +1,1 @@
+export const visibleSidebar = useStorage<boolean>('is-visible-sidebar', true)
