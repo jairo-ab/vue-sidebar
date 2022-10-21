@@ -35,6 +35,6 @@ Com isso você terá sua barra lateral dessa forma.
 Observe no json a propriedade icon:
 Junto ao [UnoCSS](https://github.com/unocss/unocss) temos o poder de utilizar os ícones como uma classe, tudo graças a base de ícones [Iconify](https://iconify.design/).
 
-Esta em fase beta e falta alguns ajustes.
+O projeto esta em fase beta e falta ajustes.
 
 Seja bem-vindo para contribuir.
