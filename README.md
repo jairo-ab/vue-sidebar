@@ -30,7 +30,7 @@ Barra lateral funcional e dinâmica, passando por props o modelo do seu arquivo 
 
 Com isso você terá sua barra lateral dessa forma.
 
-![](public/images/sidebar-screenshot.png)
+![](public/images/sidebar.png)
 
 Observe no json a propriedade icon:
 Junto ao [UnoCSS](https://github.com/unocss/unocss) temos o poder de utilizar os ícones como uma classe, tudo graças a base de ícones [Iconify](https://iconify.design/).
